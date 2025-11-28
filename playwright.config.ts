@@ -34,7 +34,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     trace: 'on-first-retry',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: 'on',
     baseURL: 'https://naveenautomationlabs.com/opencart/index.php',
@@ -102,7 +102,7 @@ export default defineConfig({
   //     }
   //   }
   // }
-],
+// ],
     // {
     //   name: 'chromium',
     //   use: { ...devices['Desktop Chrome'] },
@@ -128,6 +128,6 @@ export default defineConfig({
   //     name: 'Google Chrome',
   //     use: { ...devices['Desktop Chrome'], channel: 'chrome' },
   //   },
-  // ],
+],
 
 });
