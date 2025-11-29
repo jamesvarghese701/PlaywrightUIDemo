@@ -146,6 +146,6 @@ jobs:
       - name: Report URLs
         run: |
           echo "Reports Published!"
-          echo "Playwright Built-in: https://jamesvarghes701.github.io/PWFramework/playwright-html-report/index.html"
-          echo "Playwright HTML Reporter: https://jamesvarghes701.github.io/PWFramework/playwright-report/index.html"
-          echo "Allure: https://jamesvarghes701.github.io/PWFramework/allure-report/index.html"
+          echo "Playwright Built-in: https://jamesvarghes701.github.io/PlaywrightUITest/playwright-html-report/index.html"
+          echo "Playwright HTML Reporter: https://jamesvarghes701.github.io/PlaywrightUITest/playwright-report/index.html"
+          echo "Allure: https://jamesvarghes701.github.io/PlaywrightUITest/allure-report/index.html"
